@@ -1,0 +1,71 @@
+{
+  "category": "ci-cd",
+  "created_date": "2025-09-15T22:48:57.852835",
+  "default_ports": [
+    80,
+    443,
+    636,
+    4096,
+    8080,
+    8081,
+    9118,
+    50000
+  ],
+  "dependencies": [
+    "java-11-openjdk",
+    "git"
+  ],
+  "description": "Jenkins is a free and open-source automation server for building, testing, and deploying applications. Originally developed by Kohsuke Kawaguchi and now maintained by the Jenkins community, Jenkins is the industry-leading CI/CD platform with extensive plugin ecosystem and enterprise-grade features. It serves as a FOSS alternative to commercial CI/CD solutions like TeamCity, GitLab CI Premium, or Azure DevOps Server, offering unlimited build minutes, unlimited private repositories, and advanced pipeline capabilities without licensing costs, with features like distributed builds, Pipeline as Code, and extensive plugin ecosystem.",
+  "difficulty_level": "intermediate",
+  "documentation_url": "https://howtomgr.github.io/ci-cd/jenkins",
+  "estimated_setup_time": "15-30 minutes",
+  "features": [
+    "multi-os-support",
+    "comprehensive-documentation",
+    "security-hardening",
+    "performance-optimization",
+    "backup-restore-procedures",
+    "troubleshooting-guides"
+  ],
+  "guide_path": "/ci-cd/jenkins",
+  "installation_methods": [
+    "native-packages",
+    "source-compilation"
+  ],
+  "last_updated": "2025-09-15T22:48:57.852860",
+  "license": "Open Source",
+  "maintenance_status": "active",
+  "name": "jenkins",
+  "repository_url": "https://github.com/howtomgr/jenkins",
+  "spec_version": "2.0",
+  "subcategory": "ci-cd",
+  "supported_os": [
+    "rhel",
+    "centos",
+    "rocky",
+    "almalinux",
+    "debian",
+    "ubuntu",
+    "arch",
+    "alpine",
+    "opensuse",
+    "sles",
+    "macos",
+    "freebsd",
+    "windows"
+  ],
+  "tags": [
+    "ci-cd",
+    "containerization",
+    "orchestration",
+    "observability",
+    "data-storage",
+    "networking",
+    "security",
+    "data-protection",
+    "communication"
+  ],
+  "title": "Jenkins Installation Guide",
+  "version": "1.0.0",
+  "website_url": "https://howtomgr.github.io/ci-cd/jenkins"
+}
